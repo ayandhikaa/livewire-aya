@@ -17,4 +17,5 @@ Route::middleware([
     })->name('dashboard');
 
     Route::get('/counter', Counter::class)->name('counter'); //memanggil coounter
+    Route::get('/post.index', Index::class)->name('post.index'); //memanggil coounter
 });

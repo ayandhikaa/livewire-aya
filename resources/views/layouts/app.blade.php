@@ -34,8 +34,9 @@
 
             <!-- Page Content -->
             <main>
-                <livewire:counter/>
-                {{-- {{ $slot }} --}}
+                {{-- <livewire:counter/>
+                <livewire:index/> --}}
+                {{ $slot }}
             </main>
         </div>
 

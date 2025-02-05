@@ -23,6 +23,13 @@
                         {{ __('Counter') }}
                     </x-nav-link>
                 </div>
+
+                <!-- Post Index Links -->
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link href="{{ route('post.index') }}" :active="request()->routeIs('post.index')">
+                        {{ __('post.index') }}
+                    </x-nav-link>
+                </div>
             </div>
 
             <div class="hidden sm:flex sm:items-center sm:ms-6">
